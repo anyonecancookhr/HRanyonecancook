@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #5A308D;
+    --accent-color: #f4ede1;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background: white;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-links a.active {
+    text-decoration: underline;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero-logo {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.brands {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.brand-logos img {
+    width: 120px;
+}
+
+.about, .careers, .apply {
+    padding: 2rem;
+    text-align: center;
+}
+
+.job-list {
+    display: grid;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.job {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.btn {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary-color);
+    color: white;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: var(--primary-color);
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+}
