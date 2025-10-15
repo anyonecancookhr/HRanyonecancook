@@ -52,132 +52,128 @@
 
     <!-- Embedded Job Data (from jobs.json) -->
     <script>
+        // All job locations changed to Quezon City, Metro Manila. Department field is removed.
+        const COMMON_LOCATION = "Quezon City, Metro Manila";
         const JOB_DATA = [
             {
                 "id": 1,
                 "title": "Learning and Development Manager",
-                "department": "Human Resources",
-                "location": "Taguig, Metro Manila",
-                "poster": "posters/ld-manager.jpg",
+                "location": COMMON_LOCATION,
                 "responsibilities": [
-                    "Strategize and develop comprehensive training modules for all culinary and service teams.",
-                    "Oversee the entire training lifecycle, from needs assessment to program evaluation (ROI).",
-                    "Collaborate with brand heads (Purple Oven, Goffa, Village Cook) to ensure L&D initiatives align with brand standards.",
-                    "Lead and mentor the Learning and Development Trainee team and departmental staff."
+                    "Design and execute Food Service Skills Building Program.",
+                    "Identify and propose training programs that are aligned with the Company’s core values and priorities.",
+                    "Establish the framework for best practices.",
+                    "Design and implementation of Training and Accreditation Systems.",
+                    "Performance evaluation for continuous improvement.",
+                    "Lead and coach the Learning and Development Team.",
+                    "Team members through unfamiliar tasks or challenging situations.",
+                    "Conflict management and provide regular feedback.",
+                    "Analyze responsiveness of training programs."
                 ],
                 "qualifications": [
-                    "Minimum of 5 years experience in an L&D or Training Management role.",
-                    "Proven track record in designing and implementing technical or vocational skills programs (Food Service/Retail preferred).",
-                    "Excellent communication, facilitation, and project management skills.",
-                    "Bachelor's degree in HR, Education, Psychology, or related field."
+                    "28 to 40 years old.",
+                    "Bachelor's degree in Business, Humanities, Psychology, Engineering, Hospitality or any related course.",
+                    "5 years work experience, of which 3 years are in leadership capacity.",
+                    "Experience in creating a system that can successfully be institutionalized.",
+                    "A creative thinker and proactive leader who can harness the talent of a diverse team.",
+                    "An adaptive communicator who has a knack for finding the best way to get the message across."
                 ]
             },
             {
                 "id": 2,
-                "title": "Food Service Skills Building Program Designer & Executor",
-                "department": "Training & Operations",
-                "location": "Central Production/HQ",
-                "poster": "posters/skills-designer.jpg",
+                "title": "Design Operations Manager",
+                "location": COMMON_LOCATION,
                 "responsibilities": [
-                    "Design hands-on, practical curriculum focused on core culinary and food handling skills.",
-                    "Directly conduct in-person training sessions and operational workshops for frontline staff.",
-                    "Develop assessment tools to certify staff competence in various food service roles.",
-                    "Work closely with Operations Managers to identify skill gaps and provide targeted training."
+                    "Design and execute the Operations Development Program.",
+                    "Identify and propose operations development projects that align with the Company’s core values and priorities.",
+                    "Establish the framework for Design Operations.",
+                    "Methods to gain in-depth understanding through experience and data.",
+                    "Performance Evaluation for Continuous Improvement.",
+                    "Lead and coach the Design Operations Team.",
+                    "Guide team members through unfamiliar tasks or challenging situations.",
+                    "Conflict management and provide regular feedback to direct development.",
+                    "Develop team members through regular performance evaluation and feedback."
                 ],
                 "qualifications": [
-                    "At least 3 years experience as a senior trainer or culinary instructor in a commercial kitchen/food service setting.",
-                    "Strong presentation and public speaking skills.",
-                    "Expert knowledge of food safety standards (HACCP/GMP) and quality control processes.",
-                    "Culinary diploma or equivalent vocational certification is highly valued."
+                    "28 to 40 years old.",
+                    "Bachelor's degree in Business, Engineering or any related course from 2018 or earlier.",
+                    "5 years work experience, of which 3 years are in a leadership capacity.",
+                    "Experience in bringing about innovations to operations."
                 ]
             },
             {
                 "id": 3,
-                "title": "Design Operations Manager",
-                "department": "Operations",
-                "location": "HQ",
-                "poster": "posters/design-ops-manager.jpg",
+                "title": "Design Operations Engineer",
+                "location": COMMON_LOCATION,
                 "responsibilities": [
-                    "Define and standardize the workflows for all operational design projects (e.g., store layouts, manufacturing process changes).",
-                    "Manage project capacity, resource allocation, and timelines for the Design Operations team.",
-                    "Establish and track key performance indicators (KPIs) for design efficiency and successful implementation.",
-                    "Implement and manage design technology tools (e.g., CAD, workflow software)."
+                    "Optimize existing systems for consistent quality output.",
+                    "Know, in depth, the operational work of your assigned department by performing the responsibilities yourself.",
+                    "Align processes and tools to the Company's core values and priorities through process reengineering, tools refinement, and new tools development.",
+                    "Integrate projects into department operations.",
+                    "Understand the rationale, purpose and process of the project.",
+                    "Create, document, and implement the workflow and necessary tools to turn the project into a cyclical process that the department can execute.",
+                    "Ensure sustainability of operations.",
+                    "Document standards and operating procedures as these are established, updated, or overhauled."
                 ],
                 "qualifications": [
-                    "5+ years of experience in Operations Management, Project Management, or DesignOps.",
-                    "Expertise in process mapping, efficiency improvement, and lean methodologies.",
-                    "Strong analytical ability and experience working with cross-functional teams (Engineering, Retail).",
-                    "PMP or other relevant project certification is a significant advantage."
+                    "Bachelor's degree in Business, Engineering or any related courses.",
+                    "1-2 years work experience OR if a fresh graduate, at least a year of leadership experience in an academic or extra-curricular setting.",
+                    "Proficiency in spreadsheet applications or proven ability to self-learn a programming language.",
+                    "Openness to undertake unfamiliar tasks or situations."
                 ]
             },
             {
                 "id": 4,
-                "title": "Design Operations Engineer",
-                "department": "Technology & Operations",
-                "location": "HQ",
-                "poster": "posters/design-ops-engineer.jpg",
+                "title": "Management Trainee - Retail Operations",
+                "location": COMMON_LOCATION,
                 "responsibilities": [
-                    "Develop custom scripts and integrations to automate recurring design and operational tasks.",
-                    "Maintain and troubleshoot the technology stack used by the Design Operations team.",
-                    "Ensure data integrity and system reliability for all operational databases and tools.",
-                    "Provide technical support and training on design software to internal users."
+                    "Undergo a 3-level training curriculum, including the roles of a team member, a master crew member, a service-oriented store leader, and a trainer.",
+                    "Will be put through a combination of classroom instruction, practice activities, and floor time.",
+                    "The goal is to become a Confident, Service-Oriented Business Leader.",
+                    "Build, develop and manage the team.",
+                    "Set the example for others to follow on genuine, caring customer service.",
+                    "Identify and seize opportunities for growth."
                 ],
                 "qualifications": [
-                    "Bachelor's degree in Industrial Engineering, Computer Science, or a related technical field.",
-                    "Proficiency in programming languages (e.g., Python, SQL) for data manipulation and automation.",
-                    "Experience with data modeling, visualization tools, and basic network administration.",
-                    "Prior experience in a manufacturing or physical operations environment is a plus."
+                    "Bachelor's degree in Business, Humanities, Psychology, Engineering, Hospitality or any related course.",
+                    "1-2 years work experience OR if a fresh graduate, at least a year of leadership experience in an academic or extra-curricular setting.",
+                    "Natural desire to be of service to others – our customers, team members, co-workers.",
+                    "Openness to undertake unfamiliar tasks or situations.",
+                    "Initiative to figure things out and perseverance to try again when things don't go as planned."
                 ]
             },
             {
                 "id": 5,
-                "title": "Management Trainee - Retail Operations",
-                "department": "Retail (Cross-Brand Focus)",
-                "location": "Rotating Store Locations",
-                "poster": "posters/mt-retail.jpg",
+                "title": "Management Trainee - Food Science and Manufacturing",
+                "location": COMMON_LOCATION,
                 "responsibilities": [
-                    "Undergo a structured 12-month rotation program across key retail functions (Sales, Store Management, Inventory).",
-                    "Directly assist store managers with daily operations, staffing, and customer relationship management.",
-                    "Participate in performance analysis, loss prevention, and visual merchandising projects.",
-                    "Lead a capstone project focused on improving retail efficiency or customer experience at a brand level."
+                    "The program is designed to provide you with the knowledge and opportunities for you to take initiative, gain experience and become a confident, service-oriented leader.",
+                    "The goal is to master operations, become a systems-based, data-oriented problem solver, a creative and system-based innovator, and to master effective team management.",
+                    "Through a combination of classroom instruction, coaching sessions, practical assignment and much time spent in team operations, you are expected to achieve the following milestones: master operations, master all necessary skills, resolving issues, successfully propose, launch and sustain a project.",
+                    "Create and implement a training and development program for the rank and file members of the team."
+                ],
+                "qualifications": [
+                    "Bachelor's degree in Business, Engineering, Science, or any related course.",
+                    "1-2 years work experience OR if a fresh graduate, at least a year of leadership experience in an academic or extra-curricular setting.",
+                    "Natural desire to be of service to others – our customers, team members, co-workers.",
+                    "Openness to undertake unfamiliar tasks or situations.",
+                    "Initiative to figure things out and perseverance to try again when things don't go as planned."
                 ]
             },
             {
                 "id": 6,
-                "title": "Management Trainee - Food Science and Manufacturing",
-                "department": "R&D / Manufacturing",
-                "location": "Central Commissary",
-                "poster": "posters/mt-food-science.jpg",
-                "responsibilities": [
-                    "Assist in product quality assurance (QA) checks, ensuring all manufactured goods meet brand specifications.",
-                    "Support Food Scientists in new product development and recipe standardization projects.",
-                    "Monitor production lines to identify areas for waste reduction and efficiency improvements (Process Optimization).",
-                    "Ensure strict adherence to Good Manufacturing Practices (GMP) and regulatory compliance."
-                ]
-            },
-            {
-                "id": 7,
                 "title": "Learning and Development Management Trainee",
-                "department": "Human Resources",
-                "location": "HQ",
-                "poster": "posters/mt-ld.jpg",
+                "location": COMMON_LOCATION,
                 "responsibilities": [
-                    "Assist the L&D Manager with the logistical planning and execution of all employee training programs.",
-                    "Design and update professional presentation and training materials using modern tools.",
-                    "Manage trainee attendance, feedback collection, and performance tracking databases.",
-                    "Support the onboarding process for new hires, ensuring a smooth transition into their respective roles."
-                ]
-            },
-            {
-                "id": 8,
-                "title": "Learning and Development Management Trainee",
-                "department": "Human Resources",
-                "location": "HQ",
+                    "Standardization of Best Practices: Learn to be observant and identify the key quality quotient that differentiates good work from excellent work. Identify the gaps in existing practices that result to operational challenges and propose new data-driven and service-oriented solutions. Collaborate with leaders to define best practices and processes. Document standards and operating procedures as these are established, updated, or overhauled.",
+                    "Design and Implementation of Training and Accreditation Systems: Define appropriate training programs that focus on mastering processes for accurate, timely service. Create engaging and effective training materials and activities. Develop and execute reliable assessments. Manage onboarding and refresher training for frontline service departments.",
+                    "Champion Excellence through Performance Evaluation: Define appropriate sustainable ways to measure performance. Monitor performance and provide feedback. Serve as the expert on front service operations and customer experience."
+                ],
                 "qualifications": [
-                    "Recent graduate with a strong academic background in HR, Business Administration, or Communications.",
-                    "Exceptional organizational skills and high proficiency in Microsoft Office/G-Suite.",
-                    "Proven ability to handle confidential information and maintain detailed records.",
-                    "Eagerness to learn about corporate training strategy and instructional design."
+                    "Bachelor's degree in Business, Humanities, Psychology, Engineering, Hospitality or any related course.",
+                    "1-2 years work experience OR if a fresh graduate, at least a year of leadership experience in an academic or extra-curricular setting.",
+                    "Strong organizational and time-management skills.",
+                    "Openness to undertake unfamiliar tasks or situations."
                 ]
             }
         ];
@@ -230,7 +226,8 @@
                 const jobCardHtml = `
                     <div class="job-card py-6">
                         <h3 class="text-2xl font-semibold text-primary-purple">${job.title}</h3>
-                        <p class="text-gray-600 mt-1 mb-3 font-medium">Department: ${job.department} | Location: ${job.location}</p>
+                        <!-- DEPARTMENT REMOVED, LOCATION REMAINS -->
+                        <p class="text-gray-600 mt-1 mb-3 font-medium">Location: ${job.location}</p>
                         
                         <div class="grid md:grid-cols-2 gap-6 text-gray-700">
                             <div>
@@ -308,7 +305,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
             <!-- Logo Area -->
             <div class="flex items-center space-x-2">
-                <!-- ACC Logo - UPDATED TO USE ROOT FILE NAME -->
+                <!-- ACC Logo -->
                 <img src="acc_logo.png" alt="Anyone Can Cook Inc. Logo" class="h-10 w-auto">
                 <span class="text-xl font-bold text-primary-purple hidden sm:block">Anyone Can Cook Inc. HR</span>
             </div>
@@ -356,7 +353,6 @@
                     
                     <!-- Purple Oven Card -->
                     <div class="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
-                        <!-- UPDATED TO USE ROOT FILE NAME -->
                         <img src="purple_oven_logo.jpg" alt="Purple Oven Logo" class="h-24 mx-auto mb-4 object-contain">
                         <h3 class="text-xl font-semibold text-primary-purple mb-2">Purple Oven</h3>
                         <p class="text-gray-600">The home of premium baked goods, specializing in high-quality pastries, cakes, and artisan breads, delighting customers with every bite.</p>
@@ -364,7 +360,6 @@
 
                     <!-- Goffa Card -->
                     <div class="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
-                        <!-- UPDATED TO USE ROOT FILE NAME -->
                         <img src="goffa_logo.png" alt="Goffa Logo" class="h-24 mx-auto mb-4 object-contain">
                         <h3 class="text-xl font-semibold text-primary-purple mb-2">Goffa</h3>
                         <p class="text-gray-600">A brand focused on modern and innovative food concepts, bringing fresh and exciting flavors to the contemporary dining experience.</p>
@@ -372,7 +367,6 @@
 
                     <!-- Village Cook Card -->
                     <div class="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
-                        <!-- UPDATED TO USE ROOT FILE NAME -->
                         <img src="village_cook_logo.jpg" alt="Village Cook Logo" class="h-24 mx-auto mb-4 object-contain">
                         <h3 class="text-xl font-semibold text-primary-purple mb-2">Village Cook</h3>
                         <p class="text-gray-600">Dedicated to crafting comforting and familiar food, offering traditional quality meals that remind you of home.</p>
